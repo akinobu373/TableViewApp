@@ -23,8 +23,6 @@ class AddListViewController: UIViewController {
         
     }
     
-    
-    
     @IBAction func addTask(_ sender: Any) {
         
         let userDefaults = UserDefaults.standard
@@ -33,17 +31,11 @@ class AddListViewController: UIViewController {
         }
         userDefaults.set(taskArray, forKey: "add")
         
-        
         self.navigationController?.popViewController(animated: true)
         
     }
     
-    
 }
-
-
-
-
 
 /*
  // MARK: - Navigation
